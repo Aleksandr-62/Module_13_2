@@ -2,7 +2,7 @@ from aiogram import Bot, Dispatcher, executor, types
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.dispatcher.filters.state import State, StatesGroup
 from aiogram.dispatcher import FSMContext
-from aiogram.types import ReplyKeyboardMarkup, KeyboardButton  # inline клавиатура
+from aiogram.types import ReplyKeyboardMarkup, KeyboardButton  # клавиатура кнопок
 import asyncio
 
 api = "???????????????????????????????????????????????"
